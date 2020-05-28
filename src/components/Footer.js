@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css"
 
+
 export default function Footer () {
     return (
         <div className="footer">
@@ -14,6 +15,7 @@ export default function Footer () {
                 <a href="mailto:kimberlyboyd2@gmail.com">EMAIL</a>
                 </div>
             </div>
+            <br></br>
             <a href="#header">RETURN TO TOP</a>
         </div>
     )
