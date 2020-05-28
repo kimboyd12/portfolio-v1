@@ -1,6 +1,7 @@
 import React from "react";
 import kim from "./kim.jpg";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return(
@@ -17,7 +18,7 @@ export default function Header() {
                 <a href="#about">ABOUT</a>
                 <a href="https://www.github.com/kimboyd12">
                     GITHUB</a>
-                <a>WORK</a>
+                <a>PROJECTS</a>
             </div>
 
         </div>
