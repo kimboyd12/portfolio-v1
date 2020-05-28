@@ -1,0 +1,29 @@
+.footer {
+    background-color:#353434;
+    padding: 20px;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+}
+
+.footer-nav p {
+    font-weight: bold;
+    color: white;
+    
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a:hover {
+    color: #66b3ff;
+}

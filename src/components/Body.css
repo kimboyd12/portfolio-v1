@@ -1,0 +1,168 @@
+.body {
+    display: flex;
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 7px;
+    font-size: 1.6rem;
+    flex-direction: column;
+}
+
+.body .hello {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 40px;
+    
+}
+
+
+.hello p {
+    margin-top: -1px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.chat {
+    display: flex;
+
+}
+
+.chat a {
+    font-size: 1.2rem;
+    margin-left: 7px;
+    margin-top:-1px;
+    color: #66b3ff;
+    text-decoration: underline;
+}
+
+#info {
+    margin-bottom: -20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+    align-items: flex-start;
+    font-size: 1rem;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 125px;
+
+}
+
+#about h4 {
+    font-size: 1.4rem;
+    display: flex;
+    color: black;
+
+}
+
+#about p {
+    margin-top: -4px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    margin-top: -45px;
+    align-items: flex-start;
+    font-size: 1rem;
+    text-align: left;
+    width: 70%;
+    margin-bottom: 200px;
+}
+
+.skills h4 {
+    font-size: 1.4rem;
+    display: flex;
+    color: black;
+    margin-bottom: 7px;
+}
+
+.skills ul {
+    text-decoration: none;
+    list-style-type: "→  ";
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+
+
+
+/* arrow animation */
+
+.center-con {
+    margin-top: -100px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.round {
+    position: relative;
+    border: 2px solid black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+span {
+    z-index: 999;
+    height: 2px;
+    margin:2px;
+    width: 13px;
+    background: black;
+    transition: 0.4s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 20%;
+    bottom: 25%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 40%;
+    bottom: 25%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 20%;
+    bottom: 50%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 40%;
+    bottom: 50%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(-135deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(135deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
