@@ -15,10 +15,11 @@ export default function Header() {
             </div>
 
             <div className="navigation">
-                <a href="#about">ABOUT</a>
+                <a href="#about">About</a>
                 <a href="https://www.github.com/kimboyd12">
-                    GITHUB</a>
-                <a>PROJECTS</a>
+                    Github</a>
+                <a href="#">hello@kim-boyd.com</a>
+                
             </div>
 
         </div>
