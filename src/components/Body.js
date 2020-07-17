@@ -16,13 +16,17 @@ export default function Body() {
 
                     <div className="skills-edu">
                         <div className="skills">
-                            <p className="header">Skills</p>
-                            <p>HTML / CSS</p>
-                            <p>Javascript</p>
-                            <p>React / Redux</p>
+                            <p className="skills-header">Skills</p>
+                            <p>HTML / CSS
+                                <br></br>
+                                Javascript 
+                                <br></br>
+                                React / Redux
+                                </p>
+                        
                         </div>
                         <div className='edu'>
-                        <div className="header">Education</div>
+                        <div className="edu-header">Education</div>
                         <p>Bachelors Degree Rutgers University Class of 2018</p>
                         </div>
                 </div>

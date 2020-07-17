@@ -52,13 +52,7 @@
 
 .headers p {
     border: 1px solid yellow;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.04em;
+
 }
 
 .about-para {
@@ -69,7 +63,8 @@
 
 .skills-edu {
     display: flex;
-    border: 2px solid green;
+    /* border: 2px solid green; */
+    margin-top: 30px;
 
 }
 
@@ -78,20 +73,44 @@
     width: 400px;
     font-size: 20px;
     text-align: center;
-    justify-content: center;
     margin-top: 50px;
-}
-
-li {
-    list-style: none;
+    /* border: 2px solid orange; */
+    flex-direction: column;
+    justify-content: center;
 }
 
 .edu p {
     width: 215px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    margin-top: 34px;
+
 }
 
 
 
+.skills-header {
+    /* border: 2px solid red; */
+    margin-top: -10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
 
+}
 
+.edu-header {
+    /* border: 2px solid red; */
+    margin-top: -30px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
 
