@@ -9,8 +9,8 @@ export default function Header() {
             <div className="personal">
                 <img src={kim} alt="kim" />
                 <div className="name">
-                    <h3>Kim Boyd</h3>
-                    <p>Software Developer</p>
+                    <p>Kim Boyd</p>
+                    <p className="p">Software Developer</p>
                 </div>
             </div>
 

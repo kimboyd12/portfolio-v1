@@ -1,8 +1,5 @@
 .body {
     display: flex;
-    width: 70%;
-    margin-left: 100px;
-    margin-top: 7px;
     font-size: 1.6rem;
     flex-direction: column;
 }
@@ -10,187 +7,91 @@
 .body .hello {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 40px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    width: 700px;
+    height: 80px;
+    
     
 }
 
-
 .hello p {
     margin-top: -1px;
-    font-size: 1.2rem;
+    font-size: 30px;
     display: flex;
     align-items: flex-start;
-
 }
 
-.chat {
-    display: flex;
-
-}
-
-.chat a {
-    font-size: 1.2rem;
-    margin-left: 7px;
-    margin-top:-1px;
-    color: #66b3ff;
-    text-decoration: underline;
-}
-
-#info {
-    margin-bottom: -20px;
-}
 
 #about {
     display: flex;
     flex-direction: column;
-    margin-top: -45px;
-    align-items: flex-start;
-    font-size: 1rem;
-    text-align: left;
-    width: 70%;
-    margin-bottom: 125px;
-
+    height: 444px;
+    width: 800px;
+    margin: 0 auto;
+    align-items: center;
 }
 
-#about h4 {
-    font-size: 1.4rem;
+.about-title {
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: 'Roboto';
+    line-height: 16px;
+    letter-spacing: 0.04em;
+}
+
+.headers {
+    border: 2px solid red;
+    width: 800px;
     display: flex;
-    color: black;
-
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-#about p {
-    margin-top: -4px;
+.headers p {
+    border: 1px solid yellow;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.about-para {
+    width: 700px;
+    height: 108px;
+    font-size: 20px;
 }
 
 .skills-edu {
     display: flex;
-    flex-direction: column;
-    margin-top: -45px;
-    align-items: flex-start;
-    font-size: 1rem;
-    text-align: left;
-    width: 70%;
-    margin-bottom: 200px;
+    border: 2px solid green;
+
 }
 
-.skills h4 {
-    font-size: 1.4rem;
+.skills, .edu {
     display: flex;
-    color: black;
-    margin-bottom: 7px;
-}
-
-.skills ul {
-    text-decoration: none;
-    list-style-type: "→  ";
-    margin-left: -8px;
-    margin-top: -10px;
-}
-
-
-
-
-/* arrow animation */
-
-.center-con {
-    margin-top: -100px;
-    display: flex;
-    height: 100vh;
-    align-items: center;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
-.round {
-    position: relative;
-    border: 2px solid black;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
+li {
+    list-style: none;
 }
 
-span {
-    z-index: 999;
-    height: 2px;
-    margin:2px;
-    width: 13px;
-    background: black;
-    transition: 0.4s ease;
+.edu p {
+    width: 215px;
 }
 
-span:first-child {
-    display: block;
-    position: absolute;
-    transform: rotate(45deg);
-    left: 20%;
-    bottom: 25%;
-}
 
-span:nth-child(2) {
-    display: block;
-    position: absolute;
-    transform: rotate(-45deg);
-    left: 40%;
-    bottom: 25%;
-}
 
-span:nth-child(3) {
-    display: block;
-    position: absolute;
-    transform: rotate(45deg);
-    left: 20%;
-    bottom: 50%;
-}
 
-span:nth-child(4) {
-    display: block;
-    position: absolute;
-    transform: rotate(-45deg);
-    left: 40%;
-    bottom: 50%;
-}
 
-.round:hover span:nth-child(1) {
-    transform: rotate(-135deg);
-}
 
-.round:hover span:nth-child(2) {
-    transform: rotate(135deg);
-}
-
-.round:hover span:nth-child(3) {
-    transform: rotate(225deg);
-}
-
-.round:hover span:nth-child(4) {
-    transform: rotate(-225deg);
-}
-
-@media (max-width: 500px) {
-
-    .body {
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .chat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 0 auto;
-        margin-top: 25px;
-    }
-
-    .chat a {
-        margin-top: -15px;
-        
-    }
-
-    .center-con {
-        margin: 0 auto;
-        margin-top: -295px;
-    }
-
-    
-}
