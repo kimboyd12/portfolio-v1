@@ -2,28 +2,37 @@
     display: flex;
     font-size: 1.6rem;
     flex-direction: column;
+    margin: 0 auto;
 }
 
-.body .hello {
+.body .hello-name {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     margin: 0 auto;
     margin-top: 200px;
-    margin-bottom: 200px;
     width: 700px;
-    height: 80px;
-    
-    
+    height: 80px;   
 }
 
-.hello p {
+.hello-name p {
     margin-top: -1px;
-    font-size: 30px;
+    font-size: 1.6rem;
     display: flex;
     align-items: flex-start;
+    width: 300px;
+    flex-direction: row;
 }
 
+p.name {
+    margin-top: -1px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: flex-start;
+    width: 122px;
+    flex-direction: row;
+    margin-left: 80px;
+}
 
 #about {
     display: flex;
@@ -114,3 +123,13 @@
     letter-spacing: 0.04em;
 }
 
+.type-writer {
+    display: flex;
+    font-size: 1.6rem;
+    width: 300px;
+}
+
+.hello-more {
+    margin-bottom: 140px;
+    margin-top: -68px;
+}

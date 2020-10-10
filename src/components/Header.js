@@ -1,7 +1,7 @@
 import React from "react";
 import kim from "./kim.jpg";
 import "./Header.css";
-import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect"
 
 export default function Header() {
     return(
@@ -18,9 +18,8 @@ export default function Header() {
             <a href="https://www.github.com/kimboyd12">
                     Github</a>
                 <a href="https://www.linkedin.com/in/kim-boyd">LinkedIn</a>
-                <a href="#">kimberlyboyd2@gmail.com</a>
+                <a href="mailto:kimberlyboyd2@gmail.com">kimberlyboyd2@gmail.com</a>
             </div>
-
         </div>
     )
 }

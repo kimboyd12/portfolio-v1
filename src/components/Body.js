@@ -1,11 +1,44 @@
 import React from "react";
 import "./Body.css"
+import Typewriter from "typewriter-effect"
 
 export default function Body() {
     return (
         <div className="body">
-            <div className="hello">
-                <p>I'm Kim, a software developer that would love to help you build your website or product.</p>
+            <div className="hello-name">
+                <p className="name">I'm Kim, a</p>
+            <p className="type-writer">
+            <Typewriter
+            onInit={(typewriter) => {
+                typewriter.typeString('coffee enthusiast')
+                .callFunction(() => {
+                    console.log('String typed out!');
+                })
+                .pauseFor(750)
+                .deleteAll()
+                .callFunction(() => {
+                    console.log('All strings were deleted');
+                })
+                .start();
+                // typewriter.typeString('lifelong learner')
+                // .callFunction(() => {
+                //     console.log('String typed out!');
+                // })
+                // .pauseFor(2500)
+                // .deleteAll()
+                // .callFunction(() => {
+                //     console.log('All strings were deleted');
+                // })
+                typewriter.typeString('software developer')
+                .callFunction(() => {
+                    console.log('String typed out!');
+                })
+            }}
+            />
+            </p>
+            </div>
+            <div className="hello-more">
+            <p>that would love to help you build your website or product.</p>
             </div>
 
             <div id="info">
