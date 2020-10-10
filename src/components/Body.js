@@ -33,7 +33,7 @@ export default function Body() {
                         </div>
                         <div className='edu'>
                         <div className="edu-header">Education</div>
-                        <p>Bachelors Degree Rutgers University Class of 2018
+                        <p>Bachelors Degree Rutgers University Class of 2019
                             <br></br>
                             <br></br>
                             Lambda School Class of 2021
