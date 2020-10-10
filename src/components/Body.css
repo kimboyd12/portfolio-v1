@@ -77,11 +77,11 @@
     /* border: 2px solid orange; */
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .edu p {
-    width: 215px;
-    /* border: 2px solid green; */
+    width: 185px;
     margin: 0 auto;
     margin-top: 34px;
 
@@ -104,7 +104,7 @@
 
 .edu-header {
     /* border: 2px solid red; */
-    margin-top: -30px;
+    margin-top: -34px;
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;

@@ -11,7 +11,7 @@ export default function Body() {
             <div id="info">
                 <div id="about">
                     <p className='about-title'>About</p>
-                    <p className='about-para'>I transitioned into software development through the full stack web development course at Lambda School. I pride myself on working hard to solve problems, communicating clearly with my teammates, and staying organized. I would love to chat with you about your upcoming projects</p>
+                    <p className='about-para'>I transitioned into software development through the full stack web development course at Lambda School. I pride myself on working hard to solve problems, communicating clearly with my teammates, and staying organized. I would love to chat with you about your upcoming projects.</p>
 
 
                     <div className="skills-edu">
@@ -22,12 +22,22 @@ export default function Body() {
                                 Javascript 
                                 <br></br>
                                 React / Redux
+                                <br></br>
+                                Node
+                                <br></br>
+                                SQL
+                                <br></br>
+                                Python
                                 </p>
                         
                         </div>
                         <div className='edu'>
                         <div className="edu-header">Education</div>
-                        <p>Bachelors Degree Rutgers University Class of 2018</p>
+                        <p>Bachelors Degree Rutgers University Class of 2018
+                            <br></br>
+                            <br></br>
+                            Lambda School Class of 2021
+                        </p>
                         </div>
                 </div>
                 </div>
