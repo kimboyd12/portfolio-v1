@@ -20,15 +20,15 @@ export default function Body() {
                     console.log('All strings were deleted');
                 })
                 .start();
-                // typewriter.typeString('netflix binger')
-                // .callFunction(() => {
-                //     console.log('String typed out!');
-                // })
-                // .pauseFor(2500)
-                // .deleteAll()
-                // .callFunction(() => {
-                //     console.log('All strings were deleted');
-                // })
+                typewriter.typeString('binge watcher 🎥')
+                .callFunction(() => {
+                    console.log('String typed out!');
+                })
+                .pauseFor(2500)
+                .deleteAll()
+                .callFunction(() => {
+                    console.log('All strings were deleted');
+                })
                 typewriter.typeString('software developer')
                 .callFunction(() => {
                     console.log('String typed out!');
