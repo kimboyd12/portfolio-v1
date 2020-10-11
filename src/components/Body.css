@@ -5,14 +5,31 @@
     margin: 0 auto;
 }
 
+
+
 .body .hello-name {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 160px;
+    margin-top: 120px;
     width: 700px;
     height: 80px;   
+}
+
+@media (max-width: 500px) {
+    .body .hello-name {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width: 500px) {
+    p.name {
+        width: 100%;
+        margin-bottom: 3px;
+        padding-left: 32px;
+    }
 }
 
 .hello-name p {
@@ -59,10 +76,6 @@ p.name {
     justify-content: space-around;
 }
 
-.headers p {
-    border: 1px solid yellow;
-
-}
 
 .about-para {
     width: 700px;
@@ -70,9 +83,14 @@ p.name {
     font-size: 20px;
 }
 
+@media (max-width: 500px) {
+    .about-para {
+        width: 110%;
+    }
+}
+
 .skills-edu {
     display: flex;
-    /* border: 2px solid green; */
     margin-top: 30px;
 
 }
@@ -83,10 +101,16 @@ p.name {
     font-size: 20px;
     text-align: center;
     margin-top: 50px;
-    /* border: 2px solid orange; */
     flex-direction: column;
     justify-content: center;
     margin-bottom: 150px;
+}
+
+@media (max-width: 500px) {
+    .skills-edu {
+        width: 110%;
+        margin-top: 100px;
+    }
 }
 
 .edu p {
@@ -99,7 +123,6 @@ p.name {
 
 
 .skills-header {
-    /* border: 2px solid red; */
     margin-top: -10px;
     font-family: Roboto;
     font-style: normal;
@@ -133,3 +156,47 @@ p.name {
     margin-bottom: 140px;
     margin-top: -68px;
 }
+
+@media (max-width: 500px) {
+    .body {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    #about {
+        width: 90%;
+        font-size: 6px;
+        margin-top: -40px;
+    }
+}
+
+@media (max-width: 500px) {
+    .hello-name {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .hello-more p {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .type-writer {
+        margin-top: -20px;
+        margin-left: 60px;
+        margin-bottom: 7px;
+    }
+}
+
+@media (max-width: 500px) {
+    .edu {
+        margin-top: 54px;
+    }
+}
+
+

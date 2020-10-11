@@ -10,7 +10,7 @@ export default function Body() {
             <p className="type-writer">
             <Typewriter
             onInit={(typewriter) => {
-                typewriter.typeString('coffee enthusiast')
+                typewriter.typeString('coffee enthusiast ☕')
                 .callFunction(() => {
                     console.log('String typed out!');
                 })
@@ -20,7 +20,7 @@ export default function Body() {
                     console.log('All strings were deleted');
                 })
                 .start();
-                // typewriter.typeString('lifelong learner')
+                // typewriter.typeString('netflix binger')
                 // .callFunction(() => {
                 //     console.log('String typed out!');
                 // })
